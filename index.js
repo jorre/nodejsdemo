@@ -1,5 +1,5 @@
 const express = require("express");
-
+var cors = require("cors");
 const messagesRouter = require("./routes/api/v1/messages");
 const app = express();
 const port = process.env.PORT || 3000;
